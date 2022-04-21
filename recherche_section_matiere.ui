@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="num_inscription4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>120</y>
+     <width>281</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;section des etudiants:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficher">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>660</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>AFFICHER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>551</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 18pt &quot;Open Sans Semibold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;RECHERCHE PAR SECTION MATIERE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>660</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RETOUR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="section_2">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>190</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>240</y>
+     <width>631</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>CODE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>COEFFICIENT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DESIGNATION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SECTION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SEMESTRE</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="section">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>140</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+border-radius: 20px;
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:hover{
+	border: 2px solid rgb(222, 221, 218)
+}
+QLineEdit:focus{
+	border: 2px solid rgb(154, 208, 236)
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CPI1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CPI2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 INFO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 MATH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 INFO </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 MATH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 INFO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ING 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ING2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-160</x>
+     <y>-10</y>
+     <width>1391</width>
+     <height>881</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>n1mtIpU.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>20</y>
+     <width>131</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>output-onlinepngtools.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>num_inscription4</zorder>
+  <zorder>afficher</zorder>
+  <zorder>label</zorder>
+  <zorder>ok</zorder>
+  <zorder>section_2</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>section</zorder>
+  <zorder>label_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
